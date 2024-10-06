@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works</title>
+    <link rel="stylesheet" href="style.css">
+    <!----Font awesome cdn font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        body {
+            background-color: #1e1e1e; /* Dark background */
+            color: white; /* White text for contrast */
+            font-family: Arial, sans-serif; /* Font styling */
+        }
+
+        .works-section {
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .item {
+            background-color: #2e2e2e; /* Background for each section */
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .item h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #4cc9f0;
+        }
+
+        .item p {
+            font-weight: bold;
+        }
+
+        .item ul {
+            padding-left: 15px;
+        }
+
+        .item ul li {
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            text-align: left;
+            /*color: #20B2AA; */
+            color: #8FBF9F;
+            
+        }
+
+        strong {
+            color: #c77dff;
+        }
+
+        a {
+            color: #4cc9f0; /* Link color */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        .nested-list {
+            margin-left: 50px; /* Adjust the value to control indentation */
+            padding-left: 0;   /* Remove default padding */
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a"></i>
+                    <div class="logo-text">Arun Santhosh R A</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./works.html">Works</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="works-section">
+            <h2>Experience</h2>
+            <div class="item">
+                <h3>FOSSEE, IIT Bombay (September 2023 – November 2023)</h3> 
+                <p><strong>Spoken Tutorial: NS-3 (Network Simulator 3) in Ubuntu 22.04 (LTS)</strong></p><br>
+                <ul>
+                    <li>Designed C++ programs using the <a href="http://www.nsnam.org" target="_blank">ns-3</a> network simulation library to enhance understanding of networking concepts through practical visualization.</li>
+                    <li>Developed tutorials covering various networking scenarios, including:
+                        <ol class="nested-list"><br>
+                            <li>CSMA network using bus topology.</li>
+                            <li>Creating TCP and UDP flow using star topology.</li>
+                            <li>Infrastructure-based wireless network.</li>
+                            <li>Creating an ad-hoc wireless network.</li>
+                        </ol>
+                    </li>
+                    <li>Programs contributed to tutorials published on the Spoken Tutorial learning platform, reaching over 1000 students.</li>
+                    <li>Published a tutorial series: <a href="https://spoken-tutorial.org/tutorial-search/?search_foss=ns-3+Network+Simulator&search_language=English" target="_blank">ns-3 Network Simulator | Spoken Tutorials</a>.</li>
+                    <li>Engaged with the active ns-3 community, facilitating collaboration and knowledge sharing with networking researchers.</li>
+                </ul>
+            </div>
+        
+        
+            
+            <h2>Projects</h2>
+
+            <div class="item">
+                <h3>ResNet34 Adversarial Vulnerability Analysis</h3>
+                <ul>
+                    <li><strong>Adversarial Attacks Implementation:</strong> Implemented FGSM to generate adversarial examples challenging the ResNet34 model.</li>
+                    <li><strong>Adversarial Patches:</strong> Developed patches that confused the model when applied to images.</li>
+                    <li><strong>Model Analysis:</strong> Conducted analysis to identify weaknesses and layer reactions to adversarial inputs.</li>
+                     </ul>
+            </div>
+
+            <div class="item">
+                <h3>JobTailor: AI-Powered Personalized Career Matchmaker</h3>
+                <ul>
+                    <li><strong>Machine Learning & NLP Implementation:</strong> Built a job recommendation system using collaborative filtering, KNN and NLP techniques.</li>
+                    <li><strong>Full-Stack Development:</strong> Developed with Python/Django backend, JavaScript/HTML/CSS frontend.</li>
+                    <li><strong>Performance Optimization:</strong> Optimized caching and queries for faster response times.</li>
+                </ul>
+            </div>
+
+            <h2>Publications</h2>
+
+            <div class="item">
+                <h3>Patent </h3>
+                <strong>A System to Detect and Notify Users about Intrusion in a Farmland </strong>  
+                <br><br>
+                <ul>
+                   
+                    <li>Published a utility patent for an innovative hardware-software solution designed to enhance farm security by detecting animal intrusions. This system integrates a NoIR camera with a Raspberry Pi and Convolutional Neural Network (CNN) technology to monitor farmlands in real-time.</li>
+                    <li>The NoIR camera captures images under low-light conditions, ensuring continuous surveillance, day or night. The Raspberry Pi serves as the processing unit, running the CNN model trained to identify various animal species that may pose a threat to crops. This combination allows for efficient processing and analysis of visual data.</li>
+                    <li>By providing immediate notifications of animal presence, this system helps farmers take proactive measures to protect their crops from potential damage. The solution not only aims to reduce crop loss but also minimizes the need for harmful deterrents, promoting sustainable farming practices.</li>
+                    <li>This patent holds significant potential for application in smart farming technologies, enhancing existing agricultural monitoring systems and contributing to the advancement of precision agriculture.</li>
+                </ul>
+            </div>
+            
+
+            <div class="item">
+                <h3>Paper Publication (IEEE Xplore, 2024)</h3>
+                <strong>Visualization of DDoS Attack using Python Libraries</strong> 
+                <br><br>
+                <ul>
+                    <li>This paper presents a comprehensive study on DDoS attack prediction and visualization, leveraging Python’s Scapy functions to analyze real-time network traffic captured by Wireshark.</li>
+                    <li>The findings underscore the effectiveness of visualization techniques in understanding and mitigating DDoS threats.</li>
+                    <li>Link: <a href="https://ieeexplore.ieee.org/document/10545204" target="_blank">IEEE Xplore</a></li>
+                </ul>
+            </div>
+            
+
+            <div class="item">
+                <h3>Paper Publication (EAI, 2024)</h3>
+                <strong>Real-time Visualization and Classification of DDoS Attack using Supervised Learning Algorithms</strong> 
+                <br><br>
+                <ul>
+                    <li>Proposed a machine learning-based approach for the detection of DDoS attacks.</li>
+                    <li>Evaluated various supervised learning models on the NSL-KDD dataset to assess their performance.</li>
+                    <li>Highlighted the Random Forest model for its superior accuracy in identifying and classifying DDoS attacks.</li>
+                    <li>Provided insights into the effectiveness of machine learning techniques in enhancing network security.</li>
+                    <li>Contributed to the development of more effective defense mechanisms against DDoS attacks.</li>
+                    <li>Link: <a href="https://eudl.eu/doi/10.4108/eai.23-11-2023.2343234" target="_blank">EAI</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
